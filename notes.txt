@@ -1,0 +1,14 @@
+Untouched, except the username for docker hub, and the tag version, and the image base name (included blog)
+cygnetops/client-95     >> vilmarcabanero/blog-client
+cygnetops/comments-84   >> vilmarcabanero/blog-comments
+cygnetops/event-bus-85  >> vilmarcabanero/blog-event-bus
+cygnetops/moderation-84 >> vilmarcabanero/blog-moderation
+cygnetops/posts-95      >> vilmarcabanero/blog-posts
+cygnetops/query-84      >> vilmarcabanero/blog-query
+
+db vilmarcabanero/blog-client . && dp vilmarcabanero/blog-client
+db vilmarcabanero/blog-comments . && dp vilmarcabanero/blog-comments
+db vilmarcabanero/blog-event-bus . && dp vilmarcabanero/blog-event-bus
+db vilmarcabanero/blog-moderation . && dp vilmarcabanero/blog-moderation
+db vilmarcabanero/blog-posts . && dp vilmarcabanero/blog-posts
+db vilmarcabanero/blog-query . && dp vilmarcabanero/blog-query
